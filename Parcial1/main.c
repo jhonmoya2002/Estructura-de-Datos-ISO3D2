@@ -13,7 +13,6 @@ int main() {
 
     Competidor* competidores[5];
 
-    // Crear 5 competidores de ejemplo
     competidores[0] = crearCompetidor(1, "Juan", numPuntajes);
     competidores[1] = crearCompetidor(2, "Ana", numPuntajes);
     competidores[2] = crearCompetidor(3, "Luis", numPuntajes);
@@ -30,8 +29,6 @@ int main() {
     for(int i=0; i<n; i++) {
         mostrarCompetidor(competidores[i]);
     }
-
-    // Liberar memoria
     for(int i=0; i<n; i++) {
         free(competidores[i]->puntajes);
         free(competidores[i]);
