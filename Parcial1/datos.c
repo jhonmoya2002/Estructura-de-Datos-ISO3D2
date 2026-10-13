@@ -10,7 +10,7 @@ Competidor* crearCompetidor(int id, char *nombre, int numPuntajes) {
     strcpy(c->nombre, nombre);
     c->numPuntajes = numPuntajes;
     c->puntajes = (int*) malloc(numPuntajes * sizeof(int));
-    // Llenar con valores de ejemplo usando apuntadores
+    
     for (int i = 0; i < numPuntajes; i++) {
         *(c->puntajes + i) = rand() % 100;
     }
