@@ -13,11 +13,11 @@ int main() {
 
     Competidor* competidores[5];
 
-    competidores[0] = crearCompetidor(1, "Juan", numPuntajes);
-    competidores[1] = crearCompetidor(2, "Ana", numPuntajes);
-    competidores[2] = crearCompetidor(3, "Luis", numPuntajes);
-    competidores[3] = crearCompetidor(4, "Maria", numPuntajes);
-    competidores[4] = crearCompetidor(5, "Carlos", numPuntajes);
+    competidores[0] = crearCompetidor(1, "marc", numPuntajes);
+    competidores[1] = crearCompetidor(2, "Mia", numPuntajes);
+    competidores[2] = crearCompetidor(3, "Fernan", numPuntajes);
+    competidores[3] = crearCompetidor(4, "Maro", numPuntajes);
+    competidores[4] = crearCompetidor(5, "Carlito", numPuntajes);
 
     printf("=== ANTES DE ORDENAR ===\n");
     for(int i=0; i<n; i++) {
