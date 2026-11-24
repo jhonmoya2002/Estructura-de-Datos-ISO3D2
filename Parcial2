@@ -15,7 +15,7 @@ typedef struct Contenedor {
 
 Contenedor *inicio = NULL;
 Contenedor *fin = NULL;
-int contadorID = 1;
+int contadorID = 101;
 
 void insertarContenedor() {
         Contenedor *nuevo = (Contenedor*)malloc(sizeof(Contenedor));
